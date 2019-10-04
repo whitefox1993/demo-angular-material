@@ -5,8 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// Modules propios de Angular Material
-import { MatToolbarModule, MatButtonModule } from '@angular/material';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -17,9 +16,7 @@ import { MatToolbarModule, MatButtonModule } from '@angular/material';
     AppRoutingModule,
     BrowserAnimationsModule,
 
-    // Modules propios de Angular Material
-    MatToolbarModule,
-    MatButtonModule
+    MaterialModule,
 
   ],
   providers: [],
